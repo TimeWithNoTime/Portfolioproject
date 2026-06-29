@@ -1,0 +1,46 @@
+.textart {
+  color: #fed2fe;
+  text-align: center;
+  font-size: 35px;
+}
+.textartbody {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+} 
+
+.background {
+  background: url('black.png')
+}
+.top-nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-nav-style{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between buttons :3 */
+}
+.top-nav-button {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #555;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.top-nav-extra-style {
+  background-color: #777;
+}
